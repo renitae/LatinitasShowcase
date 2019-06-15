@@ -1,0 +1,59 @@
+body {
+    background-color: navy;
+    color: yellow;
+  }
+  .red {
+    background-color: red;
+    margin: 30px;
+  }
+  .center {
+    text-align: center;
+    font-family: "Contrail One", cursive;
+    padding: 20px;
+  }
+  
+  .border {
+    border: 8px solid navy;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  a:hover{
+    color: navy;
+    font-size: 35px;
+  }
+  
+  ul,
+  ol {
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+    font-family: "Abril Fatface", cursive;
+    text-decoration: underline;
+  }
+
+  h3 {
+      font-size: 30px;
+  }
+  /*.special {
+  text-align: center;
+  }
+  */
+  /*#mysection {
+  background-color: blue;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  display: inline-block;
+  padding-top: 50px;
+  padding-bottom: 300px;
+  margin: 50px;
+  }*/
+  
