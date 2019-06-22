@@ -9,20 +9,43 @@ main {
 flex: 1 0 auto;
 }
 
-div.buttonWrapper {
-    margin: 1em;
-}
-
 div.button {
     border: 3px solid black;
     border-radius: 25px;
     margin: 2.5%;
-    width: 8%;
-    height: 8%;
+    width: 100px;
+    height: 75px;
     text-align: center;
 }
 
 div.button:hover {
-    background-color: purple;
+    background-color: pink;
     color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.photo {
+    float: right;
+}
+
+.profileWrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+div.imageSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    width: 50%;
+}
+
+div.buttonWrapper {
+    margin: 1em;
+    width: 70%;
 }
